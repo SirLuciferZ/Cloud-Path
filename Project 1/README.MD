@@ -16,3 +16,7 @@ hostnamectl
 lsblk
 ip a
 ```
+
+### Part 4
+  I connected to my VM server using ssh from my OS. It was easier than I thought. 
+  > the purpose of this is that most of the time we connect to our server using our own clients. the servers are not close enough to work on them from their own CLI, maybe in another country, so we can access them from the company and work on them remotely.
