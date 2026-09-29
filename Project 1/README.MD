@@ -8,3 +8,6 @@ Then, I added a new VM and installed UBUNTU server 26.04 on it
 ### Part 2
 I installed ubuntu and set my username and password. also I installed ssh server, for the time that i want to control my server from other systems.
 the installation process took me a little time because the vbox did and unintended installation. but after some research, I fixed the problem. and now it works without any problem.
+
+### Part 3
+I logged in to my ubuntu. tested some commands to check everything is ok and running smoothly. the commands that I've used are: "hostnamectl\nlsblk\nip a"
