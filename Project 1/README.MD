@@ -10,4 +10,4 @@
   the installation process took me a little time because the vbox did and unintended installation. but after some research, I fixed the problem. and now it works without any    problem.
 
 ### Part 3
-  I logged in to my ubuntu. tested some commands to check everything is ok and running smoothly. the commands that I've used are: "hostnamectl   lsblk   ip a"
+  I logged in to my ubuntu. tested some commands to check everything is ok and running smoothly. the commands that I've used are: |hostnamectl||lsblk||ip a|
