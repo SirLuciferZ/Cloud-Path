@@ -43,3 +43,4 @@ I updated my apps using `sudo apt update && sudo apt upgrade -y`
 then I installed htop and fastfetch.
 htop is like task manager on windows.
 and fastfetch gave me all the system info.
+> "Troubleshooting Win: Attempted to install neofetch but encountered a 'package not found' error (due to its recent deprecation in Ubuntu repos). Investigated using `apt search` and successfully installed the modern, faster alternative: fastfetch."
