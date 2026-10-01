@@ -46,5 +46,23 @@ and fastfetch gave me all the system info.
 > "Troubleshooting Win: Attempted to install neofetch but encountered a 'package not found' error (due to its recent deprecation in Ubuntu repos). Investigated using `apt search` and successfully installed the modern, faster alternative: fastfetch."
 
 ### Part 8
-the new commands that i learned today was `grep`, `less`, `find`, `head`, `rm`, `cp`, `mv` and `2>/dev/null` on linux. also i learned `copy`, `dir`, `move`, `del`, `mkdir` (same as linux), `cd` (same as linux) and `pwd` on windows.
+the new commands that i learned on linux today was ```bash 
+`grep`, 
+`less`, 
+`find`, 
+`head`, 
+`rm`, 
+`cp`, 
+`mv` 
+and `2>/dev/null` 
+```
+also on windows I learned ```bash 
+`copy`, 
+`dir`, 
+`move`, 
+`del`, 
+`mkdir` (same as linux), 
+`cd` (same as linux) 
+and `pwd`
+```
 I also learned piping two commands together using `|` . 
