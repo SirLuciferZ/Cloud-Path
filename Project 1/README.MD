@@ -75,3 +75,9 @@ also on windows I learned
 and `pwd`
 ```
 I also learned piping two commands together using `|` . 
+
+### Part 9
+I used some new commands for networking. I found my ip address, MAC address and my DNS on linux and windows.
+on linux i used `ip a`. I found out that `a` means address.
+on windows i used `ipconfig /all`. 
+I also discovered that if i want to get the full information like `ipconfig /all` on linux, i should use `ip -s -d a`
