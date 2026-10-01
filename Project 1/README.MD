@@ -34,3 +34,7 @@ nano
 echo
 ```
 
+### Part 6
+This time I tried using chmod and nano and sudo. i changed my hostname using `sudo nano /etc/hostname`.
+I worked with nano and vim before so im not gonna have any problem using them and im quite familiar with them. i tried every number in chmod to see want happens. it was interesting. i tried to cd root but i couldnt enter it and it says permission denied. also when i wanted to nano hostname, i didnt put sudo , so it gave me a file unwrittable error. then i tried sudo and it worked. 
+
