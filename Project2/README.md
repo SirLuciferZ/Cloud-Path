@@ -32,8 +32,10 @@ it took about 10 seconds to respond. it displayed an ip address, then said trace
 i tried to do it again, but it displayed a different ip address this time.
 > i found that because google has many IP addresses, the internet can use different paths each time.
 > >that is the reason why i got different ip addresses each time.
+
 then i did it on linux using `traceroute google.com`.
 it got the ip on the first hop and on the rest of the hops, it just displayed `* * *`.
+
 > I found out that linux uses UDP, unlike windows that used ICMP.
 > >Many internet routers are configured to silently drop UDP packets for security reasons, resulting in the `* * *` timeout.
 > >I can run `sudo traceroute -I google.com` in Linux, it forces it to use ICMP (just like windows).
