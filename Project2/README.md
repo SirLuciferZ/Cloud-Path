@@ -66,7 +66,7 @@ ip route 192.168.2.0 255.255.255.0 10.0.0.2  (Creates a static route on R2)
 end  (Exits Global Configuration mode)
 write memory  (Saves the running configuration to NVRAM as the startup configuration.)
 ```
-then, to verify that routing works, i used `ping 10.0.0.2` to confirm that the IP addresses, interfaces, and routes I configured are actually working.
+then, to verify that routing works, i used `ping 10.0.0.2` on one of the PCs to confirm that the IP addresses, interfaces, and routes I configured are actually working.
 
 
 
