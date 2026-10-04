@@ -40,3 +40,35 @@ it got the ip on the first hop and on the rest of the hops, it just displayed `*
 > >Many internet routers are configured to silently drop UDP packets for security reasons, resulting in the `* * *` timeout.
 > >I can run `sudo traceroute -I google.com` in Linux, it forces it to use ICMP (just like windows).
 
+
+### Part 4
+today i used `Cisco Packet Tracer`.
+i understand the concept of routing and enterprise network.
+i built a multi-router network using `CPT`. 
+i added 2 routers, 2 switches and 4 PCs. then connected 2 PCs to each switch, and connected each switch to a router. then i connected routers to eachother.
+i gave each pc its own unique ip address, subnet and default gateway.
+also wrote this into routers CLI:
+```bash
+enable  (gives higher level access)
+configure terminal  (Enters Global Configuration mode)
+interface GigabitEthernet0/0  (Enters interface configuration mode)
+ ip address 192.168.1.1 255.255.255.0  (Assigns the IP address and subnet mask)
+ no shutdown  (Administratively enables the interface.)
+ exit  (Exits interface configuration mode)
+
+interface GigabitEthernet0/1
+ ip address 10.0.0.1 255.255.255.252
+ no shutdown
+ exit
+
+ip route 192.168.2.0 255.255.255.0 10.0.0.2  (Creates a static route on R2)
+
+end  (Exits Global Configuration mode)
+write memory  (Saves the running configuration to NVRAM as the startup configuration.)
+```
+then, to verify that routing works, i used `ping 10.0.0.2` to confirm that the IP addresses, interfaces, and routes I configured are actually working.
+
+
+
+
+
