@@ -72,3 +72,4 @@ then, to verify that routing works, i used `ping 10.0.0.2` on one of the PCs to 
 
 
 
+
